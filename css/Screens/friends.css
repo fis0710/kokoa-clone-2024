@@ -1,0 +1,17 @@
+.Friends-header {
+    display:flex;
+    align-items: center;
+    padding: 25px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.Friends-header__friends {
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.Friends-header__icon span{
+    margin-left: 25px;
+}

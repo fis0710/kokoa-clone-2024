@@ -1,0 +1,37 @@
+.user-component {
+    display: flex;
+    padding: 15px 25px;
+}
+
+.user-component__column:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.user-component__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 30%;
+    border: solid #fafafa 0.5px;
+}
+
+.user-component__text {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.user-component__under {
+    display: flex;
+    margin: 0px 25px;
+    border-top: solid #fafafa;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0,0,0,0.4);
+}
+
+.user-component__under2 {
+    margin: 15px 0px;
+    font-size: 12px;
+    color: rgb(0,0,0,0.4);
+}
